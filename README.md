@@ -15,6 +15,7 @@ IP2LOCATION.com and download the free database file !
 5 | Install required packages via npm
 6 | Check its working :)
 ```
+![Alt text](https://i.imgur.com/uKshws0.png "Example")
 
 
 ## SQL query (create table)
