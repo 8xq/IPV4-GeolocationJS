@@ -39,7 +39,6 @@ Octecs = IP parts ( split via '.' )
 IP | 192.168.1.1 => OCT 1 (192) | OCT 2 (168) | OCT 3 (1) | OCT 4 (1)
 16777216 * OCT1 + 65536 * OCT2 + 256 * OCT3 +  OCT4 = IP number
 */
-
 const IP2NUM = (IPV4) => {
 	let SplitIP = IPV4.split('.');
 	let octecs1 = parseInt(SplitIP[0]);
@@ -50,10 +49,12 @@ const IP2NUM = (IPV4) => {
 	return sum;
 }
 
-// This is a regex expression that will ensure the input string is a valid IPV4 address
-// Typical format is in the format of X.X.X.X (each X) is usually known as an "octec"
-// Each octec must be a value between 0-255 and as you can see each octec is seperated by a '.'
-// If IPV4 was matched via regex it will return 'true' else it will return 'false'
+/*
+This is a regex expression that will ensure the input string is a valid IPV4 address
+Typical format is in the format of X.X.X.X (each X) is usually known as an "octec"
+Each octec must be a value between 0-255 and as you can see each octec is seperated by a '.'
+If IPV4 was matched via regex it will return 'true' else it will return 'false'
+*/
 const ValidateIPV4 = (IPV4) => {
 	const regex = /^(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)$/;
 	if (regex.test(IPV4)) {
