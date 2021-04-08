@@ -1,8 +1,8 @@
 # IPV4-GeolocationJS
 ```
-This is a JavaScript project that uses the free LITE database provided by IP2LOCATION.com to create an IP lookup service 
-and match the IP to a country code based on the IPV4 address , for this you will need to create an account on 
-IP2LOCATION.com and download the free database file !
+This is a JavaScript project that uses the free LITE database provided by IP2LOCATION.com to create an IP 
+lookup service and match the IP to a country code based on the IPV4 address , for this you will need 
+to create an account on ip2location.com and download the free database file !
 ```
 ![Alt text](https://media.giphy.com/media/EkPvDGDf0Xq2ttUAAp/giphy.gif "Example")
 
