@@ -25,11 +25,11 @@ Password is the mySQL password for the username provided
 Database is the main "Database" name 
 Table is the Table name within the "Database"
 */
-const Host = "127.0.0.1";
-const Username = "root";
+const Host = "";
+const Username = "";
 const Password = "";
-const Database = "ip2location";
-const Table = "ip2location_db1";
+const Database = "";
+const Table = "";
 
 /*
 This is our IP2Number function that will convert the IPV4 address as seen below
