@@ -15,6 +15,8 @@ to create an account on ip2location.com and download the free database file !
 5 | Install required packages via npm
 6 | Check its working :)
 ```
+
+## Add mySQL credentials to GeoIP.js
 ![Alt text](https://i.imgur.com/uKshws0.png "Example")
 
 
